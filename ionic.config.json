@@ -1,0 +1,7 @@
+{
+  "name": "falenoel",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
