@@ -10,6 +10,7 @@ import { Router} from "@angular/router";
 })
 export class CallPage implements OnInit {
   player: Howl = null;
+  playerTelefone: Howl = null;
   playlist: Playlist;
   constructor(private router: Router) {
     const nav = this.router.getCurrentNavigation();
@@ -17,14 +18,22 @@ export class CallPage implements OnInit {
   }
   cancelar(){
       this.player.stop();
+      this.playerTelefone.stop();
       this.router.navigateByUrl('/home');
   }
 
   ngOnInit() {
-        this.player = new Howl  ({
-          src: ['https://cors-anywhere.herokuapp.com/' + this.playlist.src]
-        });
+    this.playerTelefone = new Howl  ({
+        src: ['https://cors-anywhere.herokuapp.com/http://paroquiasaogabriel.com.br/wp-content/uploads/2020/09/som-telefone.mp3']
+    });
+    this.player = new Howl  ({
+        src: ['https://cors-anywhere.herokuapp.com/' + this.playlist.src]
+    });
+    this.playerTelefone.play();
+    setTimeout(()=>{
+        this.playerTelefone.stop();
         this.player.play();
+    }, 15000);
   }
 
 }
