@@ -1,20 +1,20 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Ligue para o Papai Noel
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <div id="container">
-    <app-playlist *ngFor="let playlist of getPlaylists()" [playlist]="playlist" class="col-6 text-center" (click) = "start(playlist)">
-    </app-playlist>
+  <div class="container list-history">
+    <div class="row">
+        <app-playlist *ngFor="let playlist of getPlaylists()"
+                      [playlist]="playlist"
+                      class="col-6 text-center"
+                      (click) = "navigateByCall(playlist)">
+        </app-playlist>
+    </div>
   </div>
 </ion-content>

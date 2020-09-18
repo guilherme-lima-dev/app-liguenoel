@@ -11,6 +11,15 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'call',
+    loadChildren: () => import('./call/call.module').then( m => m.CallPageModule)
+  },
+  {
+    path: 'call',
+    redirectTo: 'call',
+    pathMatch: 'full'
+  },
 ];
 
 @NgModule({
