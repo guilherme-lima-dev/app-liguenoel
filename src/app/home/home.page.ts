@@ -12,6 +12,7 @@ export class HomePage {
   @Input() playlist: Playlist;
   // player: Howl = null;
   constructor(private track: TrackService, private router: Router) {}
+
   // activeMessage: Playlist = null;
   // start(message: Playlist) {
   //   this.player = new Howl  ({

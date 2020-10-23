@@ -20,7 +20,7 @@ export class TrackService {
       date: '9:32 AM',
       id: 0,
       read: false,
-      src: './assets/mp3/bensound-creativeminds.mp3'
+      src: 'http://api.elpilar.com.br/01.mp3'
     },
     {
       fromName: 'Historia 2',
@@ -28,7 +28,7 @@ export class TrackService {
       date: '6:12 AM',
       id: 1,
       read: false,
-      src: 'http://localhost/tolling-bell_daniel-simion.mp3'
+      src: 'http://api.elpilar.com.br/02.mp3'
     },
     {
       fromName: 'Historia 3',
@@ -36,7 +36,7 @@ export class TrackService {
       date: '4:55 AM',
       id: 2,
       read: false,
-      src: 'http://paroquiasaogabriel.com.br/wp-content/uploads/2020/08/tolling-bell_daniel-simion.mp3'
+      src: 'http://api.elpilar.com.br/03.mp3'
     },
     {
       fromName: 'Historia 4',
@@ -44,7 +44,7 @@ export class TrackService {
       date: 'Yesterday',
       id: 3,
       read: false,
-      src: 'http://soundbible.com/grab.php?id=2219&type=mp3'
+      src: 'http://api.elpilar.com.br/04.mp3'
     },
     {
       fromName: 'Historia 5',
@@ -52,7 +52,7 @@ export class TrackService {
       date: 'Yesterday',
       id: 4,
       read: false,
-      src: 'http://soundbible.com/grab.php?id=2219&type=mp3'
+      src: 'http://api.elpilar.com.br/05.mp3'
     },
     {
       fromName: 'Historia 6',
@@ -60,7 +60,7 @@ export class TrackService {
       date: 'Yesterday',
       id: 5,
       read: false,
-      src: 'http://soundbible.com/grab.php?id=2219&type=mp3'
+      src: 'http://api.elpilar.com.br/06.mp3'
     },
     {
       fromName: 'Historia 7',
@@ -68,7 +68,7 @@ export class TrackService {
       date: 'Last Week',
       id: 6,
       read: false,
-      src: 'http://soundbible.com/grab.php?id=2219&type=mp3'
+      src: 'http://api.elpilar.com.br/07.mp3'
     },
     {
       fromName: 'Historia 8',
@@ -76,7 +76,7 @@ export class TrackService {
       date: 'Last Week',
       id: 7,
       read: false,
-      src: 'http://soundbible.com/grab.php?id=2219&type=mp3'
+      src: 'http://api.elpilar.com.br/08.mp3'
     },
     {
       fromName: 'Historia 9',
@@ -84,7 +84,7 @@ export class TrackService {
       date: 'Last Week',
       id: 8,
       read: false,
-      src: 'http://soundbible.com/grab.php?id=2219&type=mp3'
+      src: 'http://api.elpilar.com.br/09.mp3'
     },
     {
       fromName: 'Historia 10',
@@ -92,7 +92,7 @@ export class TrackService {
       date: 'Last Week',
       id: 9,
       read: false,
-      src: 'http://soundbible.com/grab.php?id=2219&type=mp3'
+      src: 'http://api.elpilar.com.br/10.mp3'
     },
     {
       fromName: 'Historia 11',
@@ -100,7 +100,7 @@ export class TrackService {
       date: 'Last Week',
       id: 10,
       read: false,
-      src: 'http://soundbible.com/grab.php?id=2219&type=mp3'
+      src: 'http://api.elpilar.com.br/11.mp3'
     },
     {
       fromName: 'Historia 12',
@@ -108,7 +108,7 @@ export class TrackService {
       date: 'Last Week',
       id: 11,
       read: false,
-      src: 'http://soundbible.com/grab.php?id=2219&type=mp3'
+      src: 'http://api.elpilar.com.br/12.mp3'
     },
   ];
 
